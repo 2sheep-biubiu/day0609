@@ -5,6 +5,15 @@ public class Student {
     private int age;
     private String sex;
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", sex='" + sex + '\'' +
+                '}';
+    }
+
     public Student() {
     }
 
