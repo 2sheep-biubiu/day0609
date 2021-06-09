@@ -4,7 +4,7 @@ public class Student {
     private String name;
     private int age;
     private String sex;
-    private String address;
+  
 
     @Override
     public String toString() {
@@ -24,14 +24,7 @@ public class Student {
         this.sex = sex;
     }
 
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
+  
     public String getName() {
         return name;
     }
